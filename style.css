@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.title{
+    display: block;
+    background: linear-gradient(to left, #e74c3c, #000000);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.navbar{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.navbar > h5{
+    display: inline-block;
+    margin-inline: 15px;
+}
+.navbar > input{
+    width: 30%;
+    font-size: large;
+    border: none;
+}
+.sec1{
+    padding: 80px 135px;
+    font-size: larger;
+    background-image: url(https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.smallcontainer {
+    width:730px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2%;
+}
+.sec2{
+    padding: 20px 60px;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+.sec2 > .shoes{
+    height:80%;
+    width: 1150px;
+    margin:10px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color:#A0A0A0;
+    overflow-y: hidden; 
+}
+.imgjordan{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    padding-inline:2px;
+    /* margin-top:px; */
+
+}
+.one{
+    color:rgba(0, 0, 0, 0.7);
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.jordan{
+    width:120px;
+    height:140px;
+    overflow-y:none;
+    border: 2px solid #606060;
+    
+}
+.model{
+    background-color: #606060;
+    margin-top:-5px;
+    text-align: left;
+    color:white;
+    padding: 5px;
+
+}
+.model1{
+    margin:5px;
+    overflow-y: hidden;
+}
+.sec3{
+    padding: 60px 40px;
+    /* overflow: hidden; */
+    /* position: relative; */
+    background: linear-gradient(to left, #000000, #434343);
+}
+.main-box {
+    background: linear-gradient(to right, #000000, #e74c3c);
+    width: 92%;
+    height: 72%;
+    margin: 15px;
+    margin-left: 40px;
+    padding: 2%;
+    color:white;
+    box-shadow: 0px 0px 10px gray;
+    position: relative;
+    top:30px
+    
+}
+.content {
+    width: 40%;
+    font-size: large;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.two{
+    font-size: xx-large;
+}
+.shoe-1{
+    position: absolute;
+    right: 5%;
+    top: 6%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px white;
+}
+.shoe-1:hover{
+    margin: 1rem;
+    position: absolute;
+    top: 11%;
+    right:7%;
+    width:420px;
+    height: 420px;
+}
